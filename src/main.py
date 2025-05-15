@@ -1,8 +1,12 @@
-from textnode import *
+from enum import Enum
+from textnode import TextType, TextNode
+from htmlnode import HTMLNode, LeafNode, ParentNode
+
 
 def main():
-    textnode = TextNode("This is some anchor text", TextType.LINK, "https://www.boot.dev")
-    print(textnode)
+    pass
 
 
+
+        
 main()
